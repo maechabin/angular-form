@@ -1,8 +1,8 @@
 <?php
 class Sendmail {
 
-  const TO = "as-question@moba8.net";
-  const HEADER = "from: as-question@moba8.net\nbcc: t_maeda@fancs.com";
+  const TO = "aaa@aaa.com";
+  const HEADER = "from: aaa@aaa.com\nbcc: aaa@aaa.com";
   private $data;
   private $message;
   private $subject = "特単・商品提供希望受付";
