@@ -31,12 +31,7 @@ a img {
   text-align: center;
   background-color: #ECEFF1;r
 }
-.main__text {
-  text-align: center;
-  font-weight: bold;
-  margin-left: 16px;
-  margin-right: 16px;
-}
+
 .main__text_sub {
   font-size: 14px;
   margin-left: 16px;
@@ -60,9 +55,6 @@ a img {
   padding: 8px;
 }
 .main__title {
-
-}
-.main__text {
 
 }
 .main__text_center {
@@ -157,7 +149,6 @@ a img {
     width: 100%;
   }
   .main__title,
-  .main__text,
   .main__Pledge {
     text-align: left;
     width:94%;

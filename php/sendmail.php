@@ -1,11 +1,11 @@
 <?php
 class Sendmail {
 
-  const TO = "aaa@aaa.com";
-  const HEADER = "from: aaa@aaa.com\nbcc: aaa@aaa.com";
+  const TO = "mail@chab.in";
+  const HEADER = "from: mail@chab.in\nbcc: mail@chab.in";
   private $data;
   private $message;
-  private $subject = "特単・商品提供希望受付";
+  private $subject = "アイテム希望受付";
 
   private function get_data() {
 
@@ -26,7 +26,7 @@ class Sendmail {
   private function create_message() {
 
     $this->message .= "\n"
-    . "特単・商品提供希望受付\n"
+    . "アイテム希望受付\n"
     . "\n"
     . "----- 【受付内容】 -----\n"
     . "受付日時: " . $this->data[0] . "\n"
